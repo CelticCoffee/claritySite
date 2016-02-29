@@ -1,11 +1,5 @@
 * {
   font-family: 'Raleway', sans-serif;
-
-}
-
-.mobileJumbo {
-  /*background-color: lightgray;*/
-  margin-top: 0;
 }
 
 .noShowText {
@@ -24,6 +18,7 @@
 .colorOne {
   background-color: white;
 }
+
 .colorTwo {
   background-color: #007399;
 }
@@ -39,6 +34,7 @@
 .colorThree {
   background-color: #b3ecff;
 }
+
 .mobileHomeNav .list-group-item {
   margin-bottom: .25em;
   border-radius: 5px;
@@ -76,8 +72,6 @@
 #blackCall {
   background-color: #002633;
   color: white;
-
-
 }
 
 .mobileHomeNav #address {
@@ -98,8 +92,9 @@
 /********media queries*****/
 /***************************/
 
-@media screen && (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  .mobileJumbo {
+  display: none;  
 
-
-
+  }
 }
