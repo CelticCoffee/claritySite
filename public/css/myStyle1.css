@@ -48,32 +48,38 @@
   font-weight: 500;
 }
 
+#moreClarityInfo {
+  padding: 1em;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#learnMoreButton {
+  display: block;
+  margin: 0 auto 1em auto;
+}
+
+#closeButton {
+  display: block;
+  margin: 0 auto 1em auto;
+}
+
 .mobileFeatureImage img {
   width: 100%;
   border-radius: 5px;
 }
 
-.brandIcons {
-  list-style: none;
-}
-
-.brandIcons li{
-  display: inline-block;
-  padding: 2em;
+#blackCall {
+  background-color: #002633;
+  color: white;
 }
 
 .mobileHomeNav #address {
   font-size: 1em;
-
-}
-
-#address {
-  text-align: center;
 }
 
 #phone {
   font-size: 1em;
-  text-align: center;
 }
 
 .copyright {
@@ -88,9 +94,9 @@
 /***************************/
 
 @media screen and (min-width: 768px) {
-  /*.mobileJumbo {
+  .mobileJumbo {
   display: none;
-  }*/
+  }
 
   .slides img {
     border-radius: 5px;
