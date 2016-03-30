@@ -2,7 +2,14 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.navbar-brand {
+  padding-left: 5em;
+}
 
+.navbar-inverse li {
+  margin-left: 2em;
+
+}
 .noShowText {
   display: none;
 }
@@ -87,6 +94,9 @@
   font-weight: 500;
 }
 
+a:hover {
+  text-decoration: none;
+}
 
 
 /***************************/
