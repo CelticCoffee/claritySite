@@ -11,6 +11,9 @@ $(document).ready(function(){
     $('#learnMoreButton').show();
   });
 
-
-
-})
+  //flexslider js//
+    $('.flexslider').flexslider({
+      animation: 'fade',
+      controlsContainer: '.flexslider'
+    });
+  });
