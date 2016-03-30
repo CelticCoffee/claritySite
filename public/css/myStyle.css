@@ -2,6 +2,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
+
 .noShowText {
   display: none;
 }
@@ -16,24 +17,19 @@
 }
 
 .colorOne {
-  background-color: white;
+  background-color: #C8C8C8;
 }
 
 .colorTwo {
-  background-color: #007399;
+  background-color: #F0F0F0;
 }
 
-#colorTwo {
-  color: white;
-}
 
-.btnLearn {
-  background-color: #007399;
-  color: white;
-}
 .colorThree {
-  background-color: #b3ecff;
+  background-color: #B8B8B8;
 }
+
+
 
 .mobileHomeNav .list-group-item {
   margin-bottom: .25em;
@@ -77,10 +73,20 @@
 }
 
 .copyright {
+  margin-top: 1em;
   font-size: .75em;
   text-align: center;
   font-weight: 500;
 }
+
+.dealerDescription {
+  background-color: lightGray;
+  font-size: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
 
 
 /***************************/
@@ -112,9 +118,22 @@
   }
 }
 
+
+
 @media screen and (max-width: 1200px) {
   .thumbnail {
     width: 100%;
-
   }
+  .brandIcons li{
+    padding: .85em;
+    }
+}
+
+
+
+@media screen and (max-width: 382px) {
+
+  .brandIcons li{
+    padding: .65em;
+    }
 }
