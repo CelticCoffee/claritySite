@@ -1,0 +1,47 @@
+.service-content {
+  background-color: lightGray;
+}
+.row {
+  padding: 1em;
+  margin-bottom: 1em;
+
+}
+
+.rightSide {
+  background-color: orange;
+}
+
+.testimonial {
+  font-size:1em;
+  padding: 1.5em;
+}
+
+#choirVideo {
+  display: none;
+  margin: 3em auto;
+}
+
+#clarityExternalArticles {
+  display: none;
+}
+
+#choirBack {
+  display:none;
+}
+
+.whiteRow {
+  background-color: #F8F8F8;
+}
+
+.equipment {
+  width: auto;
+  margin-top: 2em;
+  float: right;
+  margin-bottom: 2em;
+}
+
+.speaker {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  float: left;
+}
