@@ -2,8 +2,6 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.grid-gutter-width: 0;
-
 .navbar-brand {
   padding-left: 5em;
 }
@@ -17,23 +15,13 @@
 }
 
 .topLogo {
-  width: 40%;
+  width: 70%;
   display: block;
   margin: 0 auto;
   padding-left: 1em;
   padding-bottom: 2em;
   padding-top: 0;
 }
-
-.heroImage img {
-  width: 100%;
-}
-
-.flexslider ul  {
-  margin: 0;
-  padding: 0;
-}
-
 
 .colorOne {
   background-color: #C8C8C8;
@@ -72,9 +60,6 @@
   list-style: none;
 }
 
-.brandIcons {
-  margin-left: 20%;
-}
 .brandIcons li{
   display: inline-block;
   padding: 2em;
@@ -102,7 +87,7 @@
 }
 
 .dealerDescription {
-  /*background-color: lightGray;*/
+  background-color: lightGray;
   font-size: 1em;
   padding: 1em;
   border-radius: 5px;
