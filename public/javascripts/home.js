@@ -16,4 +16,9 @@ $(document).ready(function(){
     $('#choirBack').toggle();
     $('#choirVidButton').toggle();
   });
+
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+
 });
