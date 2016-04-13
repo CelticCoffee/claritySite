@@ -8,6 +8,11 @@
   padding-left: 5em;
 }
 
+.navbar-brand img {
+  width: 90%;
+
+}
+
 .navbar-inverse li {
   margin-left: 2em;
 
