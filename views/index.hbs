@@ -13,13 +13,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="width=device-width, initial scale=1.0" name="viewport">
   <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
   <!--Flexslider-->
-  <link rel="stylesheet" href="css/flexslider.css" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <!-- <link rel="stylesheet" href="css/flexslider.css" type="text/css"> -->
+  <!-- <script src="javascripts/jquery-1.12.3.min.js"></script> -->
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="css/slick.css" rel=-"stylesheet">
+  <link href="css/slick-theme.css" rel="stylesheet">
   <link href="css/myStyle.css" rel="stylesheet">
 </head>
 <body>
@@ -65,35 +68,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Place somewhere in the <body> of your page -->
 <div class="container-fluid">
   <div class="row">
-    <div class="col-xs-12">
-      <div class="flexslider">
-        <ul class="slides">
-          <li>
-            <img src="images/alamoCrop.jpg" />
-          </li>
-          <li>
-            <img src="images/bethIsraelCrop.jpg" />
-          </li>
-          <li>
-            <img src="images/joBar.jpg" />
-          </li>
-          <li>
-            <img src="images/tulalipSlider.jpg" />
-          </li>
-          <li>
-            <img src="images/sanctuary1.jpg" />
-          </li>
-        </ul>
+    <div class="col-xs-12 multiple-items">
+            <img class="multiple-items" src="images/alamoCrop.jpg">
+
+            <img class="multiple-items" src="images/bethIsraelCrop.jpg">
+
+            <img class="multiple-items" src="images/joBar.jpg">
+
+            <img class="multiple-items"src="images/tulalipSlider.jpg">
+
+            <img class="multiple-items" src="images/sanctuary1.jpg">
+
       </div>
     </div>
-  </div>
-</div>
+
 <div class="container">
   <div class="row">
     <div class="col-sm-12">
 
-      <a href="/"><span itemprop="logo"><img class="topLogo" src="images/CM-logo.png" alt="Clarity Media Logo"></span>
-      </a>
+      <!-- <a href="/"><span itemprop="logo"><img class="topLogo" src="images/CM-logo.png" alt="Clarity Media Logo"></span>
+      </a> -->
       <div itemscope itemtype="http://schema.org/property">
       <span itemprop="description"><p id="promo"> An audio and media contractor based in Portland, Oregon. <span itemprop="name">Clarity Media Group </span><span itemprop="description">specializes in the design and installation of audio, video, and lighting systems for churches, concert halls, night clubs and corporate offices.  We use state of the art performance-predicting software, the industry&rsquo;s most innovative products, and the finest equipment and services to ensure that our customer’s expectations are met, and the project is completed on time and on budget.</span></p>
     </div>
@@ -132,8 +126,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src=
   "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
   </script>
+  <script src="javascripts/jquery-1.12.3.min.js"></script>
+  <script type="text/javascript" src="javascripts/slick.min.js"></script>
   <script src="javascripts/bootstrap.min.js"></script>
   <script type="text/javascript" src="javascripts/home.js"></script>
-  <script src="javascripts/jquery.flexslider.js"></script>
+  <!-- <script src="javascripts/jquery.flexslider.js"></script> -->
 </body>
 </html>
