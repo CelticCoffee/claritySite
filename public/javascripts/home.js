@@ -17,8 +17,14 @@ $(document).ready(function(){
     $('#choirVidButton').toggle();
   });
 
-  $('.flexslider').flexslider({
-    animation: "slide"
-  });
+$('.multiple-items').slick({
+  dots: true,
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 2,
+  autoplay: true,
+  autoplaySpeed: 4500,
+  cssEase: 'linear'
+});
 
 });
