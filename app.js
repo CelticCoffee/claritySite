@@ -8,7 +8,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
 var routes = require('./routes/index');
-// var users = require('./routes/users');
+// var users = require('./routes/users');//
+var ghost = require('ghost');
 
 var app = express();
 
@@ -34,6 +35,10 @@ app.use(function(req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
   next(err);
+});
+
+ghost().then(function(ghostServer) {
+  ghostServer.start();
 });
 
 // error handlers
