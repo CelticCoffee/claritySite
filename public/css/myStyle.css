@@ -1,11 +1,18 @@
 
 
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', serif;
 }
+
 
 .grid-gutter-width: 0;
 
+
+#clarityNavBar {
+  font-family: 'Arvo', serif;
+  font-size: 2em;
+
+}
 .navbar-brand {
   padding-left: 5em;
 }
@@ -153,7 +160,7 @@ a:hover {
 .slick-prev {
     left: 25px;
     z-index: 1;
-  
+
 }
 
 .slick-next {
