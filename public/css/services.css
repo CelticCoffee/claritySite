@@ -7,8 +7,14 @@
 
 }
 
-.rightSide {
-  background-color: orange;
+.rightSide  {
+  background-color: #001f3f;
+  padding: 1em;
+
+}
+
+.rightSideAlt {
+  background-color: #DDDDDD;
 }
 
 .testimonial {
@@ -16,9 +22,27 @@
   padding: 1.5em;
 }
 
+
+.rightSide .testimonial {
+  font-size:1em;
+  padding: 1.5em;
+  color: #DDDDDD;
+
+}
+
 #choirVideo {
   display: none;
   margin: 3em auto;
+}
+
+#choirVidButton {
+  background-color: #001f3f;
+  color: #DDDDDD;
+}
+
+.contactBtn {
+  background-color: #001f3f;
+  color: #DDDDDD;
 }
 
 #clarityExternalArticles {

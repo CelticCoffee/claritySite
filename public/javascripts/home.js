@@ -26,5 +26,8 @@ $('.multiple-items').slick({
   autoplaySpeed: 4500,
   cssEase: 'linear'
 });
+  console.log('slickRockBaby')
 
+  var contactform =  document.getElementById('contactform');
+     contactform.setAttribute('action', '//formspree.io/' + 'soundguytravis' + '@' + 'hotemail' + '.' + 'com');
 });
